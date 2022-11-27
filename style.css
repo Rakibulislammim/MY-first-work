@@ -1,0 +1,33 @@
+body{
+    font-family: 'Roboto mono', sans-serif;font-weight: normal;background-image: url(img/bg3.jpg);background-repeat:repeat;
+}
+
+.main{padding: 50px;width: 1000px;background: #ddd;margin: 0 auto;}
+ input[type="text"],input[type="tel"],input[type="email"],textarea{
+   width: 760px;
+    padding: 15px;
+    margin: 1px auto #fff;
+    border-radius: 5px;
+   }
+input[type="text"]:focus,input[type="tel"]:focus,input[type="email"]:focus,textarea:focus{outline: none;border-color: green;}
+textarea{max-width: 950px;}
+input[type="submit"]{
+    background: red;
+    color: #fff;
+    border: none;
+    padding: 15px;
+   }
+.big-icon{font-size: 100px;color: black;}
+.big-icon:hover{color: green}
+.manu{background: black;text-align: center;}
+.manu ul{margin: 0;padding: 0;list-style: none;}
+.manu li{display: inline-block;}
+.manu li a{display: block;color: green;padding: 10px;text-decoration: none;}
+.manu li a:hover{color: red;}
+.columns{overflow: hidden;}
+.single-column{float: left;padding-right: 1%;width: 32.33%}
+.single-column{text-align: justify;}
+
+
+
+
